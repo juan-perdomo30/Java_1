@@ -37,7 +37,7 @@ public class actividad4 {
         }
     }
 
-    // Método para mostrar pistas al usuario
+    // Método para mostrar pistas al usuario, para decir si es frio o caliente.
     private static void mostrarPista(int intentoUsuario, int numeroAdivinar) {
         int diferencia = Math.abs(numeroAdivinar - intentoUsuario);
 
